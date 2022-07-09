@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DepartmentComponent } from './department/department.component';
@@ -11,7 +10,8 @@ import { ShowEmpComponent } from './employee/show-emp/show-emp.component';
 import { AddEditEmpComponent } from './employee/add-edit-emp/add-edit-emp.component';
 import { SharedService } from './shared.service';
 import {HttpClientModule} from '@angular/common/http';
-import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
